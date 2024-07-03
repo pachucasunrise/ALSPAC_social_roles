@@ -86,7 +86,7 @@ table(vars_Steph %in% vars)
 active30 <- c("ypj0002","ypk0002","ypl0002","covid6yp_0001")
 
 #Read in variables needed to derive ASTs
-adv_description<-data.frame(readxl::read_excel(paste0(loc_inp,'AST_variables_20240208.xlsx'),sheet = 'ALSPAC',col_names=TRUE))
+adv_description<-data.frame(readxl::read_excel(paste0(loc_inp,'AST_variables.xlsx'),sheet = 'ALSPAC',col_names=TRUE))
 
 #The latter vars (after "var") relate to calculating dates
 #29.05.24: updated with additional, e.g. conditional vars
