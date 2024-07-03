@@ -34,7 +34,7 @@ loc_inp<-'//rdsfcifs.acrc.bris.ac.uk/MRC-IEU-research/projects/ieu2/p6/147/worki
 loc_out<-loc_inp
 
 adv_description<-data.frame(readxl::read_excel(
-paste0(loc_inp,'AST_variables_20240208.xlsx'),
+paste0(loc_inp,'AST_variables.xlsx'),
 sheet = 'ALSPAC',col_names=TRUE))
 
 #How many vars
